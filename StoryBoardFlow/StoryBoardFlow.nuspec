@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StoryBoardFlow</id>
+    <version>0.0.4</version>
+    <title>StoryBoardFlow</title>
+    <authors>leonardoneves</authors>
+    <owners>leonardoneves</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library to manage Scenes</description>
+    <releaseNotes>First change.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags></tags>
+  </metadata>
+</package>
