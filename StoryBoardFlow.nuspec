@@ -2,17 +2,25 @@
 <package >
   <metadata>
     <id>StoryBoardFlow</id>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <title>StoryBoardFlow</title>
     <authors>leonardoneves</authors>
     <owners>leonardoneves</owners>
     <license type="expression">MIT</license>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <projectUrl>https://github.com/leoneves/StoryBoardFlow</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A library to manage Scenes</description>
     <releaseNotes>First change.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags></tags>
+    <dependencies>
+      <dependency id="MonoGame.Content.Builder" version="3.7.0.9" />
+      <dependency id="MonoGame.Framework.Portable" version="3.7.1.189" />
+      <dependency id="MonoGame.Extended.Input" version="3.7.0" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="StoryBoardFlow\bin\Release\netstandard2.0\StoryBoardFlow.dll" target="lib\netstandard2.0"></file>
+  </files>
 </package>
