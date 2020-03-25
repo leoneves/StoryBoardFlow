@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>StoryBoardFlow</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <title>StoryBoardFlow</title>
     <authors>leonardoneves</authors>
     <owners>leonardoneves</owners>
@@ -15,8 +15,6 @@
     <copyright>Copyright 2020</copyright>
     <tags></tags>
     <dependencies>
-      <dependency id="MonoGame.Content.Builder" version="3.7.0.9" />
-      <dependency id="MonoGame.Framework.Portable" version="3.7.1.189" />
       <dependency id="MonoGame.Extended.Input" version="3.7.0" />
     </dependencies>
   </metadata>
