@@ -1,6 +1,5 @@
 using System;
 using Microsoft.Xna.Framework;
-using MonoGame.Extended.Input.InputListeners;
 using System.IO;
 
 namespace StoryBoardFlow
@@ -11,17 +10,15 @@ namespace StoryBoardFlow
         SceneState sceneState = SceneState.Deactivated;
         bool isLoaded;
         string scene_key;
-        InputListener inputListener;
 
         public virtual void LoadContent() { }
         public virtual void UnloadContent() { }
         public virtual void Update(GameTime gameTime) { }
         public virtual void Draw(GameTime gameTime) { }
 
-        public GameScene(string scene_key, InputListener inputListener)
+        public GameScene(string scene_key)
         {
             this.scene_key = scene_key;
-            this.inputListener = inputListener;
         }
 
         public SceneManager SceneManager
