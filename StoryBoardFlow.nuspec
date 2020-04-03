@@ -14,9 +14,6 @@
     <releaseNotes>First change.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags></tags>
-    <dependencies>
-      <dependency id="MonoGame.Extended.Input" version="3.7.0" />
-    </dependencies>
   </metadata>
   <files>
     <file src="StoryBoardFlow\bin\Release\netstandard2.0\StoryBoardFlow.dll" target="lib\netstandard2.0"></file>
