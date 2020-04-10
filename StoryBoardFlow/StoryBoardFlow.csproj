@@ -5,17 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="lib\" />
-  </ItemGroup>
-  
-  <ItemGroup>
     <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.8.0.13">
+    <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.7.0.7">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
