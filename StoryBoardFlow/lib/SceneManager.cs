@@ -7,7 +7,6 @@ namespace StoryBoardFlow
     
     public class SceneManager : DrawableGameComponent
     {
-        private SpriteBatch spriteBatch;
         Dictionary<string, GameScene> scenes = new Dictionary<string, GameScene>();
         GameScene currentScene;
 
@@ -42,15 +41,6 @@ namespace StoryBoardFlow
         protected override void LoadContent()
         {
             Debug.WriteLine("LoadContent StoryBoardFlow");
-            spriteBatch = new SpriteBatch(GraphicsDevice);
-        }
-
-        /// <summary>
-        /// A default SpriteBatch shared by all the scenes. This saves each scenes having to bother creating their own local instance.
-        /// </summary>
-        public SpriteBatch SpriteBatch
-        {
-            get { return spriteBatch; }
         }
 
         public override void Update(GameTime gameTime)
